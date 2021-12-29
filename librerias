@@ -1,0 +1,10 @@
+Instalación del framework
+    composer.phar require slim/slim
+Instalación librería psr7, para el funcionamiento de la carga de callbacks, etc
+    composer.phar require slim/psr7
+Instalación de paquetes para el uso de contenedores
+    composer.phar require php-di/php-di
+
+Para uso de APIS
+composer require guzzlehttp/psr7 "^2"
+composer require laminas/laminas-diactoros
